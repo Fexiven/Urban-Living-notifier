@@ -6,6 +6,9 @@ import html
 import urllib
 
 url = 'https://www.urban-living-nuernberg.de/mieten'
+#url = 'https://www.urban-living-hamburg.de/mieten'
+#url = 'https://www.i-live-ingolstadt.de/miete'
+#...
 
 page = requests.get(url)
 
