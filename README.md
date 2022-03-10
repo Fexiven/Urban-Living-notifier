@@ -2,6 +2,7 @@
 Checks the website every n minutes/hours if an apartment is available to reserve
 
 crontab runs every 30 minutes:
+
 */30 * * * * <path_to_virtualenv>/flatmonitor/bin/python <path_to_virtualenv>/flatmonitor/bot.py
 
 You need:
@@ -13,3 +14,6 @@ pip:
   re
   html
   urllib
+
+python3 -m venv <foldername>
+source <foldername>/bin/activate
